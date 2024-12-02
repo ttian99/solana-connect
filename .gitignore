@@ -3,3 +3,4 @@ elm-stuff
 docs
 dist
 deploy
+demo/*bundle.js*
