@@ -15,7 +15,7 @@ update msg model =
                     model.walletOptions
                         |> unwrap [ ws ]
                             ((::) ws)
-                        |> List.sortBy .name
+                        |> List.sortBy .sort
                         |> Just
               }
             , Cmd.none

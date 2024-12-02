@@ -116,9 +116,11 @@ class SolanaConnect {
         return;
       }
       this.options.set(wl.name, wl);
+      const sort = wl.name == 'SonicX' ? '0': '999';
       this.elmApp.ports.walletCb.send({
         name: wl.name,
         icon: wl.icon,
+        sort: sort
       });
     };
 

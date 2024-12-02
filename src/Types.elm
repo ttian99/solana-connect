@@ -34,6 +34,7 @@ type alias Screen =
 type alias WalletMeta =
     { name : String
     , icon : String
+    , sort : String
     }
 
 

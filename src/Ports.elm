@@ -19,6 +19,7 @@ port log : String -> Cmd msg
 port walletCb :
     ({ name : String
      , icon : String
+     , sort : String
      }
      -> msg
     )

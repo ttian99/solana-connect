@@ -8,7 +8,7 @@ interface Ports {
   connect: PortOut<string>;
   copy: PortOut<string>;
   log: PortOut<string>;
-  walletCb: PortIn<{ name: string; icon: string }>;
+  walletCb: PortIn<{ name: string; icon: string, sort: string }>;
   walletTimeout: PortIn<null>;
   connectCb: PortIn<string | null>;
   disconnectIn: PortIn<null>;
